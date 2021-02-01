@@ -25,19 +25,38 @@ The Live Enhancement Suite is a self-managing compiled [AutoHotKey](https://www.
 
 ## How do I build this thing?
 
+### Building with AHK
 *Presuming the location of your AutoHotKey install is `C:\Program Files\AutoHotkey\`and you have git installed*
 
 * Clone the repository `git clone https://github.com/LiveEnhancementSuite/LESforWindows`
 
 * Go to the folder of the repository `cd LESforWindows`
 
-* Run the AutoHotKey compiler `"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in LiveEnhancementSuite.ahk /out "Live Enhancement Suite.exe"`
+* Run the AutoHotKey compiler `"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in LiveEnhancementSuite.ahk /out "Live Enhancement Suite.exe"` 
 
   ***Sidenote: If you are trying to debug the LiveEnhancementSuite script, you may run it as a normal AutoHotKey script, building is generally reserved for releases***
+
+### Building with CompileAHK GUI
+* Clone the repository `git clone https://github.com/LiveEnhancementSuite/LESforWindows`
+
+* Download CompileAHK's GUI here: https://github.com/mercury233/compile-ahk
+
+* Once installed, simply right click the .ahk file and choose "Compile with options"
+
+* Hit the "Compile" button
+
+### Building the installer
+* Clone the repository `git clone https://github.com/LiveEnhancementSuite/LESforWindows`
+
+* Download and install the latest version of Inno Setup from https://jrsoftware.org/isinfo.php
+
+* Open the `InnoSetupScript.iss` file with Inno Setup
+
+* Hit Ctrl + F9 to build
 
 ## Anything else?
 
 **LESforWindows is released under the MIT License**
 
-Copyright © 2019-2020 [Dylan Tallchief](https://twitter.com/dylantallchief) and [Inverted Silence](https://twitter.com/invertedsilence)
+Copyright © 2019-2021 [Dylan Tallchief](https://twitter.com/dylantallchief) and [Inverted Silence](https://twitter.com/invertedsilence)
 
