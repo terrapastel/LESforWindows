@@ -1,6 +1,6 @@
 ![Live Enhancement Suite](https://raw.githubusercontent.com/LiveEnhancementSuite/LESforMacOS/master/Hammerspoon/Images.xcassets/AppIcon.appiconset/icon_256x256.png)
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FLiveEnhancementSuite%2FLESforWindows%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/LiveEnhancementSuite/LESforWindows/goto?ref=master)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FLiveEnhancementSuite%2FLESforWindows%2Fbadge%3Fref%3Ddevelop&style=flat)](https://actions-badge.atrox.dev/LiveEnhancementSuite/LESforWindows/goto?ref=develop)
 
 ## What is the Live Enhancement Suite?
 
