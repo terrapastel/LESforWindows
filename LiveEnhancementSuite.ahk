@@ -1178,8 +1178,10 @@ tempautoadd := autoadd
 
 
 If (tempautoadd = 1){
-sleep, 112
-Send,{down}{enter}
+sleep, 100
+Send,{enter}				
+sleep, 100				; Updated for Live 12 compatibility. Enter is pressed, then a 100ms wait, then Enter is pressed again. Now plugins load the first time.
+Send,{enter}
 }
 Else{
 goto, skipautoadd
