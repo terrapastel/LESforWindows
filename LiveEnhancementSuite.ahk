@@ -1178,9 +1178,9 @@ tempautoadd := autoadd
 
 
 If (tempautoadd = 1){
-sleep, 100
+sleep, 200
 Send,{enter}				
-sleep, 100				; Updated for Live 12 compatibility. Enter is pressed, then a 100ms wait, then Enter is pressed again. Now plugins load the first time.
+sleep, 200				; Updated for Live 12 compatibility. Enter is pressed, then a 100ms wait, then Enter is pressed again. Now plugins load the first time.
 Send,{enter}
 }
 Else{
